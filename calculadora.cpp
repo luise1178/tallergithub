@@ -8,7 +8,15 @@ int main(){
     cout <<"2. resta" <<endl;
     cout <<"3. multiplicacion" <<endl;
     cout <<"4. division" <<endl;
-       
+    cin <<"opcion" <<endl;
+
+    switch(opcion){
+        case 1:
+        resultado = n1 + n2;
+        cout<<"El resultado es:"<<resultado<< endl;
+        break;
+    }
+
 
 
 
